@@ -37,6 +37,7 @@
     <Compile Include="BasicCalculations\WhenCalculatingNothing.cs" />
     <Compile Include="BasicCalculations\WhenCalculatingSingleInput.cs" />
     <Compile Include="IntegerCalculations\WhenCalculatingSumOfPositiveIntegers.cs" />
+    <Compile Include="IntegerCalculations\WhenCalculatingSumOfIntegersWithDifferentSign.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
