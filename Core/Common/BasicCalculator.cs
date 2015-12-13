@@ -7,7 +7,7 @@ namespace AEGIS.Calculator.Core.Common
 		#region Calculator implementation
 
 		String _result = "0";
-		public string Result {
+		public String Result {
 			get 		{ return _result;}
 			private set { _result = value;}
 		}

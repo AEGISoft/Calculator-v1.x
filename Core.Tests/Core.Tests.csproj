@@ -36,6 +36,7 @@
   <ItemGroup>
     <Compile Include="BasicCalculations\WhenCalculatingNothing.cs" />
     <Compile Include="BasicCalculations\WhenCalculatingSingleInput.cs" />
+    <Compile Include="IntegerCalculations\WhenCalculatingSumOfPositiveIntegers.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -53,5 +54,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="BasicCalculations\" />
+    <Folder Include="IntegerCalculations\" />
   </ItemGroup>
 </Project>
