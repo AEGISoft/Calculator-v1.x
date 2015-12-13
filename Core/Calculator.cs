@@ -7,6 +7,8 @@ namespace AEGIS.Calculator.Core
 		String Result {
 			get;
 		}
+
+		void Calculate (string input);
 	}
 }
 

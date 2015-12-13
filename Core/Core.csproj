@@ -30,6 +30,6 @@
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Compile Include="Calculator.cs" />
-    <Compile Include="CalculatorBase.cs" />
+    <Compile Include="IntegerCalculator.cs" />
   </ItemGroup>
 </Project>

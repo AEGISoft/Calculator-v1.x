@@ -2,7 +2,7 @@
 
 namespace AEGIS.Calculator.Core
 {
-	public class CalculatorBase:Calculator
+	public class IntegerCalculator:Calculator
 	{
 		#region Calculator implementation
 
@@ -12,6 +12,11 @@ namespace AEGIS.Calculator.Core
 			}
 		}
 
+
+		public void Calculate (string input)
+		{
+			throw new NotImplementedException ();
+		}
 		#endregion
 
 	}

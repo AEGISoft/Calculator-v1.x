@@ -12,7 +12,7 @@ namespace AEGIS.Calculator.Core.Tests
 
 		protected override void Arrange ()
 		{
-			_calculator = new CalculatorBase ();
+			_calculator = new IntegerCalculator ();
 		}
 
 		[Test ()]
