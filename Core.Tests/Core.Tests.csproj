@@ -39,6 +39,7 @@
     <Compile Include="IntegerCalculations\WhenCalculatingSumOfPositiveIntegers.cs" />
     <Compile Include="IntegerCalculations\WhenCalculatingSumOfIntegersWithDifferentSign.cs" />
     <Compile Include="IntegerCalculations\AaaStyleIntegerCalculationTest.cs" />
+    <Compile Include="IntegerCalculations\WhenCalculatingSumOfMultipleIntegersOfDifferentSign.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
