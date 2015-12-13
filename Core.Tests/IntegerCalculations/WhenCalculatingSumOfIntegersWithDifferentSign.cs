@@ -1,26 +1,15 @@
-﻿using System;
-using AEGIS.Specs.Framework;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
 namespace AEGIS.Calculator.Core.Tests.IntegerCalculations
 {
-	public class WhenCalculatingSumOfIntegersWithDifferentSign: AaaStyleSpec
-
+	public class WhenCalculatingSumOfIntegersWithDifferentSign: AaaStyleIntegerCalculationTest
 	{
-		Common.Calculator _calculator;
-		String _input;
-		String _expectedResult;
 
 		protected override void Arrange ()
 		{
-			_calculator = new IntegerCalculator();
+			base.Arrange ();
 			_input = "-1 + 5";
 			_expectedResult = "4";
-		}
-
-		protected override void Act ()
-		{
-			_calculator.Calculate(_input);
 		}
 
 		[Test]
