@@ -32,6 +32,7 @@
     <Compile Include="IntegerCalculator.cs" />
     <Compile Include="Common\BasicCalculator.cs" />
     <Compile Include="Common\Calculator.cs" />
+    <Compile Include="Common\ParseException.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Common\" />

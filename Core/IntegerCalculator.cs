@@ -8,8 +8,13 @@ namespace AEGIS.Calculator.Core
 	{
 		public override void Calculate (string input)
 		{
+			//Initialize
 			var parameters = new List<String>(input.Split(' '));
 
+			//Validate
+			if (!IsNumeric (parameters [0])) throw new ParseException (parameters [0]);
+
+			//Calculate
 			while (parameters.Count >= 3)
 			{
 				//read 3 first parameters and replace them by the calculated result
@@ -33,6 +38,12 @@ namespace AEGIS.Calculator.Core
 		}
 
 		#region Underworld
+		private bool IsNumeric(String parameter)
+		{
+			Int32 number;
+			return Int32.TryParse (parameter, out number);
+		}
+
 		//read and pop off the top value
 		private String Pop (ref List<String> stack)
 		{

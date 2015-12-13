@@ -2,7 +2,7 @@
 using AEGIS.Calculator.Core.Tests.IntegerCalculations;
 using NUnit.Framework;
 
-namespace AEGIS.Calculator.Core.Tests
+namespace AEGIS.Calculator.Core.Tests.IntegerCalculations
 {
 	public class WhenCalculatingSumOfMultipleIntegersOfDifferentSign: AaaStyleIntegerCalculationTest
 	{
