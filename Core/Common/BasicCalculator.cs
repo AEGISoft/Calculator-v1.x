@@ -6,14 +6,14 @@ namespace AEGIS.Calculator.Core.Common
 	{
 		#region Calculator implementation
 
-		String _result = "0";
+		protected String _result = "0";
 		public String Result {
 			get 		{ return _result;}
 			private set { _result = value;}
 		}
 
 
-		public void Calculate (string input)
+		public virtual void Calculate (string input)
 		{
 			Result = input;
 		}
