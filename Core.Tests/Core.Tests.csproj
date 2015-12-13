@@ -40,4 +40,10 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Framework-v1.x\Specs.Framework\Specs.Framework.csproj">
+      <Project>{E4361256-E059-4830-BFD1-9AD651083061}</Project>
+      <Name>Specs.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
