@@ -1,24 +1,10 @@
 ﻿using System;
+using AEGIS.Calculator.Core.Common;
 
 namespace AEGIS.Calculator.Core
 {
-	public class IntegerCalculator:Calculator
+	public class IntegerCalculator:BasicCalculator
 	{
-		#region Calculator implementation
-
-		public string Result {
-			get {
-				return "0";
-			}
-		}
-
-
-		public void Calculate (string input)
-		{
-			throw new NotImplementedException ();
-		}
-		#endregion
-
 	}
 }
 

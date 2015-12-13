@@ -3,12 +3,12 @@ using System;
 using AEGIS.Specs.Framework;
 using AEGIS.Calculator.Core;
 
-namespace AEGIS.Calculator.Core.Tests
+namespace AEGIS.Calculator.Core.Tests.BasicCalculations
 {
 	[TestFixture ()]
 	public class WhenCalculatingNothing: AaaStyleSpec
 	{
-		Calculator _calculator;
+		Common.Calculator _calculator;
 
 		protected override void Arrange ()
 		{

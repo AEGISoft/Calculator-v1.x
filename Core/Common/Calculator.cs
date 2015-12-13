@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AEGIS.Calculator.Core
+namespace AEGIS.Calculator.Core.Common
 {
 	public interface Calculator
 	{

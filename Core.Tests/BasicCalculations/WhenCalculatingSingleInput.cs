@@ -3,11 +3,11 @@ using AEGIS.Specs.Framework;
 using NUnit.Framework;
 using AEGIS.Calculator.Core;
 
-namespace AEGIS.Calculator.Core.Tests
+namespace AEGIS.Calculator.Core.Tests.BasicCalculations
 {
-	public class WhenCalculatingSingleInteger:AaaStyleSpec
+	public class WhenCalculatingSingleInput:AaaStyleSpec
 	{
-		Calculator _calculator;
+		Common.Calculator _calculator;
 		String _inputInteger;
 
 		protected override void Arrange(){

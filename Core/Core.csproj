@@ -29,7 +29,11 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <Compile Include="Calculator.cs" />
     <Compile Include="IntegerCalculator.cs" />
+    <Compile Include="Common\BasicCalculator.cs" />
+    <Compile Include="Common\Calculator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Common\" />
   </ItemGroup>
 </Project>
