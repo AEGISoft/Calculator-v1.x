@@ -34,7 +34,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Test.cs" />
+    <Compile Include="WhenCalculatingNothing.cs" />
+    <Compile Include="IntegerCalculations\WhenCalculatingSingleInteger.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -49,5 +50,8 @@
       <Project>{86E63385-EAE2-4545-952F-28FC447153EA}</Project>
       <Name>Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="IntegerCalculations\" />
   </ItemGroup>
 </Project>
