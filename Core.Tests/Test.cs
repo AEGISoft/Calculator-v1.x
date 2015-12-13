@@ -1,15 +1,24 @@
 ﻿using NUnit.Framework;
 using System;
 using AEGIS.Specs.Framework;
+using AEGIS.Calculator.Core;
 
-namespace Core.Tests
+namespace AEGIS.Calculator.Core.Tests
 {
 	[TestFixture ()]
 	public class WhenCalculatingNothing: AaaStyleSpec
 	{
-		[Test ()]
-		public void TestCase ()
+		Calculator _calculator;
+
+		protected override void Arrange ()
 		{
+			_calculator = new CalculatorBase ();
+		}
+
+		[Test ()]
+		public void ItReturnsZero ()
+		{
+			Assert.That(_calculator.Result, Is.EqualTo("0"));
 		}
 	}
 }

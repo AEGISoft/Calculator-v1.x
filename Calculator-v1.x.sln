@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Tests", "Core.Tests\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specs.Framework", "..\Framework-v1.x\Specs.Framework\Specs.Framework.csproj", "{E4361256-E059-4830-BFD1-9AD651083061}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{86E63385-EAE2-4545-952F-28FC447153EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0E600FB0-8505-43F5-9377-FD134CF7BE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E600FB0-8505-43F5-9377-FD134CF7BE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E600FB0-8505-43F5-9377-FD134CF7BE21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86E63385-EAE2-4545-952F-28FC447153EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86E63385-EAE2-4545-952F-28FC447153EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86E63385-EAE2-4545-952F-28FC447153EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86E63385-EAE2-4545-952F-28FC447153EA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E4361256-E059-4830-BFD1-9AD651083061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E4361256-E059-4830-BFD1-9AD651083061}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4361256-E059-4830-BFD1-9AD651083061}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0E600FB0-8505-43F5-9377-FD134CF7BE21}</ProjectGuid>
+    <ProjectGuid>{86E63385-EAE2-4545-952F-28FC447153EA}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>AEGIS.Calculator.Core.Tests</RootNamespace>
-    <AssemblyName>AEGIS.Calculator.Core.Tests</AssemblyName>
+    <RootNamespace>AEGIS.Calculator.Core</RootNamespace>
+    <AssemblyName>AEGIS.Calculator.Core</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -27,27 +27,9 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
   </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="nunit.framework">
-      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Test.cs" />
-  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\Framework-v1.x\Specs.Framework\Specs.Framework.csproj">
-      <Project>{E4361256-E059-4830-BFD1-9AD651083061}</Project>
-      <Name>Specs.Framework</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Core\Core.csproj">
-      <Project>{86E63385-EAE2-4545-952F-28FC447153EA}</Project>
-      <Name>Core</Name>
-    </ProjectReference>
+    <Compile Include="Calculator.cs" />
+    <Compile Include="CalculatorBase.cs" />
   </ItemGroup>
 </Project>
