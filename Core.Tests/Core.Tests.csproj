@@ -30,7 +30,10 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="nunit.framework">
-      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+      <HintPath>..\packages\NUnit.3.0.1\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="AEGIS.Specs.Framework">
+      <HintPath>..\packages\AEGIS.Specs.Framework.dll.1.0\bin\Release\AEGIS.Specs.Framework.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -44,13 +47,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\Framework-v1.x\Specs.Framework\Specs.Framework.csproj">
-      <Project>{E4361256-E059-4830-BFD1-9AD651083061}</Project>
-      <Name>Specs.Framework</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Core\Core.csproj">
       <Project>{86E63385-EAE2-4545-952F-28FC447153EA}</Project>
       <Name>Core</Name>
@@ -59,5 +55,8 @@
   <ItemGroup>
     <Folder Include="BasicCalculations\" />
     <Folder Include="IntegerCalculations\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
